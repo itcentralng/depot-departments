@@ -222,8 +222,8 @@ html, body {
   margin-bottom: 5px;
 }
 .portrait-name {
-  font-family: var(--f-head); font-size: 1.40rem; font-weight: 700;
-  letter-spacing: 2px; text-transform: uppercase;
+  font-family: var(--f-head); font-size: clamp(0.95rem, 1.8vw, 1.40rem); font-weight: 700;
+  letter-spacing: 0.5px; text-transform: uppercase;
   color: #f6efe3; line-height: 1.15; margin-bottom: 14px;
   text-shadow: 0 2px 12px rgba(0,0,0,0.50);
 }
