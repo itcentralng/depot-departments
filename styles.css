@@ -168,13 +168,77 @@ html, body {
 .dept-card:hover .dept-card-arrow { color: var(--gold); transform: translateX(4px); }
 
 /* ══ DETAIL SCREEN ══ */
-#screen-detail { display: flex; }
+#screen-detail { display: flex; flex-direction: column; }
 .detail-layout {
-  width: 100%; height: 100%;
+  flex: 1; min-height: 0;
   display: grid;
   grid-template-columns: 420px 1fr;
   grid-template-rows: 100%;
   overflow: hidden;
+}
+
+/* ── Members strip ── */
+.members-strip {
+  flex-shrink: 0;
+  height: 210px;
+  display: flex; align-items: center; gap: 20px;
+  padding: 0 36px;
+  border-top: 1px solid var(--gold-line);
+  background: rgba(6,10,8,0.60);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.members-strip.hidden { display: none; }
+.members-label {
+  font-family: var(--f-head); font-size: 0.60rem; font-weight: 700;
+  letter-spacing: 4px; text-transform: uppercase; color: var(--gold-dim);
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  flex-shrink: 0;
+}
+.members-scroll {
+  flex: 1; min-width: 0;
+  display: flex; gap: 14px;
+  overflow-x: auto; overflow-y: hidden;
+  padding: 14px 0;
+  scroll-behavior: smooth;
+}
+.members-scroll::-webkit-scrollbar { height: 4px; }
+.members-scroll::-webkit-scrollbar-track { background: transparent; }
+.members-scroll::-webkit-scrollbar-thumb { background: rgba(166,124,62,0.30); border-radius: 99px; }
+
+.member-card {
+  flex-shrink: 0; width: 130px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  cursor: pointer;
+  animation: fadeIn 0.3s ease both;
+}
+.member-photo-wrap {
+  width: 100px; height: 120px;
+  border-radius: 12px; overflow: hidden;
+  border: 3px solid rgba(166,124,62,0.35);
+  background: #1a2218; position: relative;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.member-card:hover .member-photo-wrap {
+  border-color: rgba(220,188,120,0.80);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+}
+.member-photo {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: top center;
+}
+.member-sil {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(30,40,32,0.60);
+}
+.member-sil svg { width: 40px; height: 40px; color: rgba(166,124,62,0.35); }
+.member-sil.hidden { display: none; }
+.member-name {
+  font-family: var(--f-head); font-size: 0.60rem; font-weight: 600;
+  letter-spacing: 0.5px; text-transform: uppercase;
+  color: rgba(240,232,218,0.80); text-align: center; line-height: 1.3;
+  width: 100%;
 }
 
 /* Portrait side */

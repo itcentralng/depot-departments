@@ -42,22 +42,69 @@
     // Show/hide profile button
     document.getElementById('profile-btn').style.display =
       (dept.hod_bio && dept.hod_bio.trim()) ? '' : 'none';
+
+    // Members strip
+    buildMembersStrip(dept.members || []);
+  }
+
+  function buildMembersStrip(members) {
+    var strip = document.getElementById('members-strip');
+    var scroll = document.getElementById('members-scroll');
+    scroll.innerHTML = '';
+
+    if (!members || !members.length) {
+      strip.classList.add('hidden');
+      return;
+    }
+    strip.classList.remove('hidden');
+
+    members.forEach(function (m, i) {
+      var card = document.createElement('div');
+      card.className = 'member-card';
+      card.style.animationDelay = (i * 30) + 'ms';
+
+      var wrap = document.createElement('div');
+      wrap.className = 'member-photo-wrap';
+
+      if (m.photo) {
+        var mimg = document.createElement('img');
+        mimg.className = 'member-photo';
+        mimg.src = m.photo;
+        mimg.alt = m.name;
+        wrap.appendChild(mimg);
+        var sil = document.createElement('div');
+        sil.className = 'member-sil hidden';
+        sil.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><circle cx="12" cy="8" r="5"/><path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/></svg>';
+        wrap.appendChild(sil);
+      } else {
+        var sil = document.createElement('div');
+        sil.className = 'member-sil';
+        sil.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><circle cx="12" cy="8" r="5"/><path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/></svg>';
+        wrap.appendChild(sil);
+      }
+
+      var nameEl = document.createElement('div');
+      nameEl.className = 'member-name';
+      nameEl.textContent = m.name;
+
+      card.appendChild(wrap);
+      card.appendChild(nameEl);
+      card.addEventListener('click', function () { openMemberProfile(m); });
+      scroll.appendChild(card);
+    });
   }
 
   // ── Profile modal ────────────────────────────────────
 
-  window.openProfile = function () {
-    if (!currentDept) return;
-    var dept = currentDept;
-
-    document.getElementById('modal-role').textContent = dept.hod_role || '';
-    document.getElementById('modal-name').textContent = dept.hod_name || '—';
-    document.getElementById('modal-bio').textContent  = dept.hod_bio || '';
+  function openModal(role, name, bio, photo) {
+    document.getElementById('modal-role').textContent = role || '';
+    document.getElementById('modal-name').textContent = name || '—';
+    document.getElementById('modal-bio').textContent  = bio  || '';
 
     var img = document.getElementById('modal-photo');
     var sil = document.getElementById('modal-photo-silhouette');
-    if (dept.photo) {
-      img.src = dept.photo;
+    if (photo) {
+      img.src = photo;
       img.style.display = 'block';
       sil.classList.add('hidden');
     } else {
@@ -66,9 +113,18 @@
     }
 
     document.getElementById('modal').classList.remove('hidden');
-    document.getElementById('modal-bio-scroll') &&
-      (document.querySelector('.modal-bio-scroll').scrollTop = 0);
+    document.querySelector('.modal-bio-scroll').scrollTop = 0;
+  }
+
+  window.openProfile = function () {
+    if (!currentDept) return;
+    var d = currentDept;
+    openModal(d.hod_role, d.hod_name, d.hod_bio, d.photo);
   };
+
+  function openMemberProfile(m) {
+    openModal('', m.name, m.bio, m.photo);
+  }
 
   window.closeProfile = function (e) {
     if (!e || e.target === document.getElementById('modal')) {
