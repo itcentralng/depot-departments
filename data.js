@@ -1,0 +1,379 @@
+var DEPT_DATA = {
+  "departments": [
+    {
+      "id": "admin_company",
+      "name": "Administration Company",
+      "brief": "Administration Company is a department of Headquarters Depot Nigerian Army Osogbo, charged with coordinating the training support activities of the institution. It enforces discipline among all soldiers of the Depot and is responsible for its internal security, conducting routine day and night patrols that have also contributed to improved security in the surrounding host communities.",
+      "chronicles": [
+        {
+          "name": "Major Nurudeen Ibraheem",
+          "role": "Officer Commanding, Administration Company",
+          "photo": "assets/images/depts/admin_company.jpeg",
+          "bio": "Major Nurudeen Ibraheem was born on 7 September 1989 in Offa Local Government Area, Kwara State. He attended Nawair-Ud-Deen Primary School for his primary education, followed by Offa Grammar School, Offa (Kwara State) and Okoyelola High School, Konta-Ijabe (Osun State) for his secondary education.\n\nHe was admitted to the Nigerian Defence Academy on 14 August 2010 as a member of 62 Regular Course and was commissioned into the Nigerian Army Corps of Infantry on 12 September 2015.\n\nMajor Ibraheem has served in various units and appointments including: Platoon Commander and Acting Operations Officer, 19 Battalion Okitipupa (Nov 2015 – Nov 2016); Operations Officer, Intelligence Officer, Battalion Adjutant and Company Commander (Alfa and Bravo Companies), 81 Division Task Force Battalion, Gulumba-Gana and Dikwa, Borno State (2016 – 2020); Battalion Adjutant, 2 Battalion Kaduna (from Mar 2020); Pioneer Operations Officer, 2 Special Women Operations Battalion Abakaliki; and Officer Commanding, Administration Company, Depot NA Osogbo (current).\n\nCourses attended include Young Officers Course 26/17, Basic Surveillance Course 11/23 and Junior Course 95/23, all at the Nigerian Army School of Infantry Jaji, as well as Basic Human Rights Awareness Course 7/22 at the Martin Luther Agwai Leadership and Peacekeeping Centre Jaji.\n\nHe is married and blessed with three children. His hobbies include reading, jogging and listening to music.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "army_public_relations_depot_osogbo",
+      "name": "Army Public Relations",
+      "brief": "The Army Public Relations Department was established on 31 May 2025 as the branch directly responsible to the Commandant for all public relations activities of Depot Nigerian Army Osogbo. The department manages information to project the image and reputation of the institution, provides media advisory to the Commandant and serves as the official liaison and protocol office of the Depot. Its current manpower holding is 1 x 6.\n\nThe department's functions include managing relationships with the media and ensuring all public communications positively reflect the institution; coordinating press releases, official statements and responses to media inquiries; overseeing the management of digital communication platforms and the institution's social media presence; enforcing Nigerian Army protocols on online communications; publicising Depot activities; producing and distributing banners, flyers and other print media; liaising with civil authorities and paramilitary organisations; conducting and coordinating all visits to the institution; receiving and ushering guests to the Commandant's office; and providing photo and video coverage of all Depot activities.",
+      "chronicles": [
+        {
+          "name": "Major Y.A. Ibrahim",
+          "role": "Deputy Assistant Director, Army Public Relations",
+          "photo": "assets/images/depts/army_public_relations_depot_osogbo.jpeg",
+          "bio": "Major Yahaya Arama Ibrahim was born on 29 September 1983 into the family of Late Mallam Abdulrahim Ibrahim. He hails from Okene Local Government Area of Kogi State.\n\nHe began his primary education at Command Children's School, Dantuku Road, Kaduna (1986 – 1992) and proceeded to Nigerian Military School Zaria (1992 – 1998) for his secondary education. He obtained a National Diploma and Higher National Diploma in Mass Communication from Kaduna Polytechnic (2000 – 2006) and a Post Graduate Diploma in Mass Communication from Ahmadu Bello University Zaria in 2010.\n\nMajor Ibrahim was commissioned into the Nigerian Army as a Lieutenant on 5 July 2014 as a member of Direct Short Service Course 21. He is an Associate Member of the Nigerian Institute of Public Relations.\n\nHe has served in the following appointments: SO3 Public Administration and Research, HQ 2 Division APR; Force Public Information Officer, United Nations Mission in Liberia; SO3 Publicity and Information, HQ 81 Division APR; Liaison Officer, NAOWA 81 Division Chapter; ADAPR, HQ 29 Task Force Brigade Maiduguri; Ag ADAPR, HQ 1 Brigade Gusau; Force Information Officer, JTF North West Op HADARIN DAJI; Information Officer, Op SAHEL SANITY Katsina; Ag ADAPR, NACEST Makurdi; Pioneer ADAPR, Depot NA Osogbo (current).\n\nCourses attended include Young Officers Course Army Public Relations, Media Operations Officers Course and Advanced Public Relations Course (all at NASPR); BMATT CIMIC Operators Course, Martin Luther Agwai International Peacekeeping Centre Jaji; Basic Computer Course, Nigerian Army Signals School Apapa; and Junior Leadership and Staff Officers Course 1/27, NACOLAM Lagos.\n\nHis operational experience includes United Nations Mission in Liberia (NIBATT 26, 2013; NIBATT 38, 2016), Operation Lafiya Dole Maiduguri (2018 – 2020), Operation Sharan Daji / Operation Hadarin Daji Zamfara (2020 – 2024), Operation Forest Sanity Katsina (2020) and Operation Sahel Sanity Sokoto (2021).",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "band_dept",
+      "name": "Band Department",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Captain B.J. Idoko",
+          "role": "Pioneer Commander, Band Department",
+          "photo": "",
+          "bio": "Captain Bernard Jibrin Idoko was born on 3 October 1984 into the family of the late LCpl Jibrin Idoko and Mrs Helen Idoko in Okpokwu Local Government Area of Benue State.\n\nHe attended Odissasa Primary School, Ugbokolo (1990 – 1995) for his primary education and Government Secondary School, Okpoga, Benue State (1996 – 2001) for his secondary education, where he obtained his SSCE. He was later sponsored by the Nigerian Army to study music at the University of Ado-Ekiti, where he obtained a Bachelor of Arts in Music in September 2013.\n\nHe was enlisted into the Nigerian Army in 2002 as a member of 52 Regular Recruits Intake and was posted to the Nigerian Army Band Corps. He was subsequently commissioned into the Nigerian Army as a member of Executive Commission Course 1/17 in 2017 and posted back to the Nigerian Army Band Corps.\n\nAs a commissioned officer, Captain Idoko has served as Commanding Officer of the following formations: 9 Brigade Band (2019 – 2020); 31 Artillery Brigade Band (2020 – 2022); 2 Brigade Band (2022 – 2025); and Depot NA Band Osogbo, where he currently serves as the Pioneer Commanding Officer.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "catering_dept",
+      "name": "Catering Department",
+      "brief": "The Catering Department was established at the inception of Depot Nigerian Army Osogbo in July 2025 to provide nutritional support essential to recruit training. The department's primary responsibility is the provision of three square meals daily for recruits in line with extant Nigerian Army regulations on rations. In addition, all Depot personnel receive weekday lunch in accordance with the COAS directive.\n\nThe department works with vetted food vendors who supply dry rations and engages civilian caterers to supplement Nigerian Army personnel. Currently, 80 civilian staff operate in two shifts alongside Supply and Transport personnel to support catering services.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel A.A. Amadi",
+          "role": "Commanding Officer, Catering Department",
+          "photo": "assets/images/depts/catering_dept.jpeg",
+          "bio": "Lieutenant Colonel A.A. Amadi hails from Agba-Ozizza Community in Afikpo North Local Government Area of Ebonyi State.\n\nHe attended Agba Primary School for his primary education and Comprehensive Secondary School Afikpo for his secondary education. He thereafter proceeded to Federal Polytechnic Unwana-Afikpo where he obtained a National Diploma and Higher National Diploma in Accounting and Finance. He was admitted to the Nigerian Defence Academy and commissioned as a member of Short Service Course 34.\n\nUpon commissioning, he was posted to Headquarters Nigerian Army Corps of Supply and Transport, followed by a posting to 1 Division Transport Battalion as Platoon Commander. He was subsequently nominated for NIBATT 10 African Mission in Sudan and thereafter NIBATT 19 United Nations Mission in Liberia (UNMIL). Following his de-induction from UNMIL, he deployed to the North East as Catering Officer, 3 Division Special Operations Brigade, which later became 27 Task Force Brigade. He attended the Armed Forces Command and Staff College for his Junior Course, followed by a posting to NACOL as Catering Officer. He served as Acting CO, Supply and Transport Battalion, 4 Brigade Benin and attended the AFCSC Senior Course. Subsequent postings include SO2 Policy, AHQ DAPP; Commanding Officer, 763 Supply and Transport Battalion; DCOS G4, HQ NACST (December 2025); and Catering Officer, Depot NA Osogbo (January 2026 – current).\n\nHe is married to Mrs Augusta Ubolo Amadi-Ulu and the union is blessed with two children. His hobbies include swimming, playing badminton and watching nature movies.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "chap_rc",
+      "name": "Chaplaincy (Roman Catholic)",
+      "brief": "The Department of Chaplain Services (Roman Catholic) was established at Depot Nigerian Army Osogbo in June 2025 with the posting of its pioneer chaplain. The department provides holistic spiritual, moral and psychological support to military personnel, their families and recruits in accordance with the mandate of the Directorate of Chaplain Services (Roman Catholic), Nigerian Army. Its current posted strength is 1 x 3.\n\nThe department's mandates include advising the Depot Commandant on administrative and religious matters; leading personnel, families and recruits in Sunday and weekday worship; organising Friday padre hours; providing spiritual and pastoral guidance; administering sacraments; conducting wedding ceremonies, naming ceremonies and funeral services; and offering guidance and counselling to officers, soldiers, families and recruits.",
+      "chronicles": [
+        {
+          "name": "Lieutenant E.O. Nwokoye",
+          "role": "Pioneer Catholic Chaplain",
+          "photo": "assets/images/depts/chap_rc.jpeg",
+          "bio": "Lieutenant Edwin Okechukwu Nwokoye was born on 14 December 1995 into the family of Mr and Mrs Joseph Nwokoye. He hails from Orumba North Local Government Area of Anambra State.\n\nHe began his primary education at All Saints Nursery and Primary School, Awgbu and obtained his First School Leaving Certificate from Seat of Wisdom Nursery and Primary School, Umunze (2005). He proceeded to Holy Child Secondary School, Isuofia, Anambra State, where he obtained his West African Senior School Certificate in 2012. He holds a Bachelor of Philosophy from Pope John Paul II Major Seminary Awka (2018) and a Bachelor of Theology from Blessed Iwene Tansi Major Seminary Onitsha (2023). He was ordained a Roman Catholic priest for the Catholic Diocese of Awka on 15 July 2023.\n\nHe was admitted to the Nigerian Defence Academy as a member of Direct Short Service Course 28 on 10 May 2024 and was commissioned into the Nigerian Army as a Lieutenant on 28 September 2024.\n\nHe was posted to 2 Division NA Ibadan as SO2 Chaplain (RC) on 17 February 2025 and subsequently to Depot NA Osogbo as Pioneer Catholic Chaplain on 30 May 2025, a position he currently holds.\n\nCourses attended include Leadership and Regimentation Course (2024) and Young Officers Course Chaplain (RC) (2026). His hobbies include reading, football and adventure.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "depot_na_cmg_personnel",
+      "name": "Cantonment Maintenance Group",
+      "brief": "The Cantonment Maintenance Group (CMG) was established at Depot Nigerian Army Osogbo on 7 June 2025. It is responsible for the maintenance, repair and general engineering services of all Depot infrastructure and utilities, including civil works, electrical services, plumbing, carpentry, masonry, water supply, accommodation, road maintenance and power supply. The CMG provides technical support to ensure seamless execution of training activities. Its current manpower holding is 2 x 15 soldiers.\n\nSince establishment, the CMG has completed several projects: the remodelling of the Quarter Guard; construction of a stable and a temporary loose box; installation of solar-powered street lights at the Depot and parade ground; construction of drainage systems at the Recruit Centre, Training Branch and Records Office blocks; construction of checkpoints, a boom gate and guard house using hesco bags; jacketing and remodelling of Tangos to include conveniences and rest areas; and construction of the Hall of Fame and an open kiosk.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel I.S. Lucas",
+          "role": "Commanding Officer, CMG",
+          "photo": "assets/images/depts/depot_na_cmg_personnel.jpeg",
+          "bio": "Lieutenant Colonel Ishaya Shehu Lucas was born on 2 August 1983 into the family of the late WOII Lucas Shehu (RTD) and Mrs Esi Hadiza Lucas. He hails from Karim Lamido Local Government Area of Taraba State.\n\nHe began his primary education at Army Children's School Yola in 1987 and gained admission into Vocational Training Centre Jalingo in 1994. He thereafter proceeded to Government Science Secondary School Jalingo, where he obtained his Senior School Certificate in 2000. He holds a Bachelor of Technology in Architecture from Federal University of Technology Yola.\n\nLieutenant Colonel Lucas was commissioned into the Nigerian Army on 6 April 2011 as a member of Direct Short Service Course 18, later converted to Direct Regular Commission 18.\n\nCourses attended include Engineers Young Officers Course, NASME Makurdi (2012); Bomb Disposal Officers Course, NASME Makurdi (2015); FBI Post-Blast Forensic Investigation Course, Police Bomb School Ikeja (2016); International Improvised Explosive Device Disposal Course, DEMS Regiment Kineton, United Kingdom; Construction Management Officers Course, NASME Makurdi (2019); Senior Course 45, AFCSC Jaji (2022 – 2023); and Engineer Officers Squadron Commander Course, NASME Makurdi (2024).\n\nHe is married to Mrs Sandra Lami Ishaya and the union is blessed with three children. His hobbies include basketball, golf, travel and watching television.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "drill_wing",
+      "name": "Drill Wing",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Major A.D. Dowgo",
+          "role": "Acting Senior Instructor, Drill Wing",
+          "photo": "assets/images/depts/drill_wing.jpeg",
+          "bio": "Major Aondona Dominic Dowgo was born on 14 April 1988 in Gboko Local Government Area. He hails from Vandeikya Local Government Area of Benue State, from the family of Chief B.M. Dowgo and Mrs Elizabeth Kwamande.\n\nHe attended Royal Kindergarten Nursery and Primary School and LGEA Primary School, both in Makurdi, for his primary education, and Federal Government College Vandeikya for his secondary education. He attended the College of Advanced and Professional Studies Makurdi before proceeding to Benue State University where he obtained a Bachelor of Science in Economics in 2008.\n\nHe was admitted to the Nigerian Defence Academy as a member of 61 Regular Course and was commissioned into the Nigerian Army Armoured Corps in 2014.\n\nAs a commissioned officer, he has served in the following units: 242 Reconnaissance Battalion Badagry (2015); 242 Reconnaissance Battalion Monguno (2016); HQ NAAC Admin Battalion Bauchi (2020); AHQ Garrison Admin Battalion Abuja (2023); and Depot NA Osogbo, where he currently serves as Acting Senior Instructor, Drill Wing (2025 – date). He has attended corps career courses up to Armoured Company Commander Course as well as other professional development courses.\n\nHe is married and blessed with one son.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "education_dept",
+      "name": "Education Department",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Major Ibrahim Adamu Tahir",
+          "role": "Senior Education Officer",
+          "photo": "assets/images/depts/education_dept.jpeg",
+          "bio": "Major Ibrahim Adamu Tahir was born on 8 February 1988 in Kaduna into the family of Alhaji Adamu Tahir. He hails from Gombe Local Government Area of Gombe State.\n\nHe attended LGEA Sheikh Abubakar Mahmud Gumi Primary School, Kaduna for his primary education and Netherlands International Schools, Kaduna for his secondary education. He obtained a National Diploma in Mineral Resources Engineering from Kaduna Polytechnic (2007), a Bachelor of Science in Geography from Usmanu Danfodiyo University Sokoto (2011), a Post Graduate Diploma in Education from the National Teachers Institute Kaduna (2015) and a Master of Science in Geography from Kaduna State University (2025). He is a member of the Association of Nigerian Geographers, the Teachers Registration Council of Nigeria and the Nigerian Army Resource Centre.\n\nHe was commissioned into the Nigerian Army Education Corps on 5 July 2014 as a member of Direct Short Service Course 21.\n\nHe has served in the following appointments: Instructor, Nigerian Military School Zaria (2014 – 2017); Instructor, Command Science Secondary School (Girls) Gusau (2017 – 2018); Lecturer, Nigerian Army College of Education Ilorin (2020 – 2021); Supervisory Education Officer, Depot NA Zaria (July 2021); Watchkeeper, 27 Task Force Brigade Buni Gari, Yobe State (2022); Instructor, Martin Luther Agwai International Leadership and Peacekeeping Centre Jaji (January 2025); and Supervisory Education Officer, Depot NA Osogbo (April 2026 – current).\n\nCourses attended include Young Officers Course Education, Young Officers Course Infantry, Basic and Advanced Library Courses, Basic Systems Approach to Training and Curriculum Course, Basic NAEC Officers Development Course, Junior Leadership and Staff Officers Course and United Nations Military Observers Course. He participated in Operation HADIN KAI from July 2022 to January 2025.\n\nHe is married to Bilkisu Yunusa Adam and the union is blessed with children.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "finance_department",
+      "name": "Finance Department",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Major Musa Myek",
+          "role": "Head, Finance Department",
+          "photo": "assets/images/depts/finance_department.jpeg",
+          "bio": "Major Musa Myek was born on 3 April 1980 into the family of Mr and Mrs Myek Magaji Dah in Jaba Local Government Area of Kaduna State.\n\nHe attended Mallam Maude Primary School, Kwoi (FSLC 1991) for his primary education and Government Secondary School Fadan-Kaje, Kaduna (O'Level 1995) for his secondary education. He obtained a Higher National Diploma in Accounting from Nuhu Bammali Polytechnic Zaria (2005) and served as a corps member of the National Youth Service Corps at the Office of the Accountant General of the Federation, Gombe State (2006 – 2007). He is a Certified National Accountant (CNA) of the Nigerian College of Accountancy Jos (2009) and a Fellow of the Institute of Leadership and Human Resources.\n\nHe was commissioned into the Nigerian Army Finance Corps on 5 July 2014 as a member of Direct Short Service Course 21.\n\nHe has served in the following appointments: Instructor, Nigerian Army School of Finance and Administration Lagos (2014 – 2015); Administrative Officer, Nigerian Army Welfare Insurance Scheme (2015 – 2016); Staff Officer, NACEST (2016 – 2017); Finance Manager, Nigerian Army Post Exchange Limited (2017 – 2019); Brigade Finance Officer, 42 Engineers Brigade (2019 – 2021); Acting Deputy Director Finance, HQ CAR Lokoja (Nov 2021 – Feb 2022); Acting SO2 Payment, HQ 8 Division Finance (2022 – 2023); Finance Officer, HQ Directorate of Legal Services Army (2024); and Pioneer Finance Officer, Depot NA Osogbo (current).\n\nHe participated in Operation HADIN KAI. Courses attended include Young Officers Course Finance (2016), Computer Appreciation Course (2019), SO2 Payment Course (2021), Junior Leadership and Staff Officers Course (2024) and the 10th and 14th Nigerian Army Finance Corps Biennial Training Conferences (2015 and 2024).\n\nHe is married to Mrs Mercy Myek Magaji. His hobbies include swimming, watching football and listening to music.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "hq_depot_na_osogbo",
+      "name": "Headquarters Depot Nigerian Army",
+      "brief": "Headquarters Depot Nigerian Army, Osogbo is the command and administrative nerve centre of the Depot. It coordinates all operational, training, administrative and logistical activities of the formation. The headquarters is headed by the Commandant, a senior officer responsible for the overall management, discipline and welfare of all personnel and recruits under the Depot.",
+      "chronicles": [
+        {
+          "name": "Brigadier General Buhari Michael Madaki",
+          "role": "Commandant, Depot Nigerian Army",
+          "photo": "assets/images/depts/hq_depot_na_osogbo.jpeg",
+          "bio": "Brigadier General Buhari Michael Madaki is a member of 47 Regular Course of the Nigerian Defence Academy and Commissioning Course 001 of the Royal Military Academy Sandhurst. He is of the Infantry Corps.\n\nHe holds a Master of Arts in International Affairs and Strategic Studies from the Nigerian Defence Academy, a Master of Science in International Defence and Security from Cranfield University and an Executive Certificate in Public Leadership from the Harvard Kennedy School. He has attended all military courses commensurate with his rank, including the Higher Defence and Strategic Studies Course, National Defence College Abuja (September 2022 – September 2023); Higher Military Strategy and Management Course, Army War College Nigeria (April – December 2018); and Infantry Commanding Officer's Course, Nigerian Army School of Infantry Jaji (September – December 2016). He has completed the Advanced Airborne Course and is qualified as a jump master.\n\nHe has served in various capacities across instruction, staff, command and diplomacy, including: Instructor, Airborne Wing, Nigerian Army School of Infantry (2005 – 2008); Company Commander, 4 Guards Battalion (2008 – 2010); Military Assistant to the Commandant, Nigerian Defence Academy (2011 – 2012); Acting Commanding Officer, 72 Special Forces Battalion (2013 – 2014); Directing Staff, BMATT Junior Command and Staff Course, Canada (2007); Directing Staff, Armed Forces Command and Staff College Jaji (2016 – 2018); Defence Attaché to Mali with concurrent accreditation to Senegal, The Gambia, Mauritania, Cape Verde and Western Sahara (2019 – 2022); Directing Staff, National Defence College Abuja (2024 – 2025); and Commandant, Depot Nigerian Army Osogbo (current).\n\nHis awards and decorations include the Overseas Sword of Honour from the Royal Military Academy Sandhurst, the United Nations Mission in Liberia Medal, Nigeria Centenary and Golden Jubilee Medals, General Operations and Foreign Training Assistance Medals, and the Royal Military Academy Sandhurst and Command Medals. His hobbies include jogging, watching movies and wildlife.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "islamic_affairs",
+      "name": "Islamic Affairs",
+      "brief": "The Depot NA Islamic Affairs, Osogbo, provides moral and spiritual guidance to Muslim personnel, their families and recruits in line with the mandate of the Directorate of Islamic Affairs, Nigerian Army.\n\nThe department's mandates include advising the Depot Commandant on Islamic matters; leading Friday prayers and the five daily prayers; providing spiritual guidance and counselling to officers, soldiers, families and recruits; officiating naming ceremonies, wedding ceremonies and funeral prayers; and conducting spiritual healing where required.",
+      "chronicles": [
+        {
+          "name": "Captain A.B. Dikko",
+          "role": "Officer-in-Charge, Islamic Affairs",
+          "photo": "assets/images/depts/islamic_affairs.jpeg",
+          "bio": "Captain A.B. Dikko was born on 17 April 1985 into the family of Barrister Dikko Isma'ila Dikko in Donga Local Government Area of Taraba State.\n\nHe attended Tutuala Nursery and Primary School, Donga (1992 – 1998) for his primary education. He thereafter gained admission into Federal Government College Wukari (1998 – 2002) and later transferred to Command Day Secondary School Kaduna (2002 – 2006), where he obtained his Senior School Certificate. He holds a Bachelor of Arts (Hons) in Islamic Studies from the University of Maiduguri and served with the National Youth Service Corps in Ebonyi State in 2014.\n\nHe was commissioned into the Nigerian Army as a Lieutenant in June 2017 as a member of Direct Short Service Course 23, and was posted to the Directorate of Islamic Affairs.\n\nHe has served in the following appointments: Regiment Imam, 301 Artillery Regiment (General Artillery) Gombe (2017 – 2018); 7 Guards Battalion Abuja; Instructor, Nigerian Army School of Islamic Affairs; and Pioneer Depot Imam, Depot NA Osogbo (current).\n\nCourses attended include Leadership and Regimentation Course, Serti Baruwa (2017); Leadership Course, Nigerian Army Resource Centre Abuja (2018); Imam Young Officers Course (2019); Islamic Guidance and Counselling Course (2021); Advanced Islamic Guidance and Counselling Course (2022); British Military Advisory Training Team Course (2024); Introduction to the Science of Hadith (2025); BMATT Refresher Course (2025); and Junior Leadership and Staff Officers Course (2025).\n\nHe is married and the union is blessed with children. His hobbies include reading, research, interacting with scholars, admonition and travel.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "lad",
+      "name": "Light Aid Detachment",
+      "brief": "The Light Aid Detachment (LAD) was established in June 2025 to provide equipment support to Depot Nigerian Army Osogbo. Its statutory responsibilities include the maintenance of electrical, mechanical, optical and electro-medical equipment across the Depot, and providing technical advice to the Commandant on Electrical and Mechanical Engineers matters. The detachment's current manpower strength is 1 x 9.\n\nSince its establishment, the LAD has accomplished the following: routine servicing of vehicles and power generating sets; fabrication of 29 falling plates; repair of 2 unserviceable Turismo buses; refurbishment of the Review Officer's inspection vehicle used for 98 RRI POP; reinforcement and repair of Depot tentages; recovery duties; and retrofitting of a Toyota Hilux vehicle for the Osun State NYSC Secretariat.",
+      "chronicles": [
+        {
+          "name": "Major Chinagorom Ogochukwu Odo",
+          "role": "Officer Commanding, LAD",
+          "photo": "assets/images/depts/lad.jpeg",
+          "bio": "Major Chinagorom Ogochukwu Odo Williams was born on 18 April 1984 into the family of Mr and Mrs Williams Ugwuanyi in Udenu Local Government Area of Enugu State.\n\nHe attended Central School Obollo Afor (FSLC 1995) for his primary education and Saint Teresa's College Nsukka for his secondary education. He obtained a Bachelor of Engineering in Electronics from the University of Nigeria Nsukka in 2008 and served with the National Youth Service Corps at Government Secondary School Serti Barwa, Gashaka LGA, Taraba State (2009 – 2010).\n\nHe was commissioned into the Nigerian Army Electrical and Mechanical Engineers Corps on 25 May 2013 as a member of Short Service Combatant Course 41.\n\nHe has served in the following appointments: Pupilage, Command Workshop Mogadishu Cantonment Abuja (2013 – 2015); Acting Vehicle Platoon Commander, 35 Artillery Brigade Workshop Alamala Abeokuta (2016 – 2018); Vehicle Platoon Commander, 1041 Brigade Workshop Ikeja Cantonment (Jan 2016 – Oct 2018); OC Repair Company, Nigerian Army Special Retrofitting and Repair Workshop Ojo Cantonment Lagos (Oct 2018 – Feb 2022); Acting CO Brigade Workshop, 25 Task Force Brigade Damboa (2022); Acting Production Officer, 1033 Brigade Workshop Gibson Jalo Cantonment Yola (Nov 2022 – Jan 2024); Acting Production Officer, 32 Artillery Brigade Workshop Owena Cantonment Akure (Mar 2024); and Pioneer Officer Commanding, Light Aid Detachment, Depot NA Osogbo (current).\n\nCourses attended include Basic Counter Terrorism Course Kontagora; EME Young Officers Course NASEME Auchi; Network Systems and Object Tracking Course DADP Lagos; Officers Armament and Instrument Course NASEME Auchi; Junior Staff Course AFCSC Jaji; Database Management System Course DADP Lagos; and COREN Annual Seminars. He is a registered member of the Council for the Regulation of Engineering in Nigeria (COREN) and a Fellow of the Institute of Security Nigeria.\n\nHis operational experience includes: Op MESA (Sagamu and Ogere, 9 Brigade AOR); Op HARBIN KUNAMA II, Southern Kaduna; Op HADIN KAI as Acting CO Brigade Workshop, 25 TF Bde Damboa; and Op SAFE CONDUCT (2023).",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "legal_dept",
+      "name": "Legal Department",
+      "brief": "The Legal Department provides legal advisory, review and instructional services to Depot Nigerian Army Osogbo. Its functions include drafting and reviewing contracts to protect the interests of the Depot; identifying legal risks and ensuring compliance with relevant laws and policies; conducting legal reviews of Military Police Investigation Reports, Boards of Inquiry and Regimental Inquiries; and delivering lectures on Basic Military Law, the Law of Armed Conflict, Rules of Engagement, the status of Prisoners of War and Peace Support Operations, in collaboration with the Provost Company.",
+      "chronicles": [
+        {
+          "name": "Captain E.F. Collins",
+          "role": "Head, Legal Department",
+          "photo": "assets/images/depts/legal_dept.jpeg",
+          "bio": "Captain E.F. Collins hails from Sabatoru Town in Nembe Local Government Area of Bayelsa State. He was born into the family of Chief Collins Ekine Eyeke and Mrs Stella Ekine Collins and is the first of three children.\n\nHe began his primary education at Township Primary School, Moscow Road, Port Harcourt in 1990 and attended Baptist High School Borokiri, Port Harcourt for his secondary education (SSCE 2002). He obtained a Bachelor of Laws from Niger Delta University, Bayelsa State (2010) and was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of Nigeria at the Nigerian Law School, Lagos Campus, on 25 November 2014.\n\nHe was commissioned into the Nigerian Army as a Lieutenant on 3 June 2017 as a member of Direct Short Service Course 23, and was initially posted to 82 Division Legal Services. He was converted from Direct Short Service Commission to Direct Regular Commission in August 2020.\n\nHe has served in the following appointments: Legal Officer, 82 Division Legal Services Enugu; Legal Officer, HQ Sector 3 Op HADIN KAI Monguno; Legal Officer, 31 Artillery Brigade Minna; Legal Officer, HQ Directorate of Legal Services Army Abuja; Prosecutor, HQ 7 Division General Court Martial; Judge Advocate, 1 Division General Court Martial; and Acting Assistant Director Legal, Depot NA Osogbo (18 February 2026 – current).\n\nHis operational experience includes Operation LAFIYA DOLE / HADIN KAI (North East), Operation DOMINION STORM, Operation WHIRL PUNCH and Operation MESA (all North Central Nigeria).",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "med_centre",
+      "name": "Medical Centre",
+      "brief": "The Medical Centre provides primary and secondary healthcare services to all military personnel and their dependants within Depot Nigerian Army Osogbo. The centre conducts routine medical examinations for recruits on admission and throughout training, manages sick parades, emergency care and medical evacuations. It is staffed by trained military medical officers and support personnel committed to maintaining the health and fitness of the Depot community.",
+      "chronicles": [
+        {
+          "name": "Major (Dr.) J.A. Edimek",
+          "role": "Commanding Officer, Medical Centre",
+          "photo": "assets/images/depts/med_centre.jpeg",
+          "bio": "Major (Dr.) Jonathan Anietie Edimek is a military medical officer and healthcare administrator with over 26 years of service in the Nigerian Army and more than 14 years of clinical practice.\n\nHe commenced his military career in October 1999 following graduation from the Nigerian Military School Zaria. He holds a Bachelor of Science in Microbiology from the University of Uyo (2005), a Bachelor of Medicine and Bachelor of Surgery (MBBS) from the University of Calabar (2011), a Master of Business Administration from Ahmadu Bello University Zaria (2023) and a Master of Public Health from the same institution. He completed his Housemanship at the University of Uyo Teaching Hospital in 2012 and was commissioned into the Nigerian Army Medical Corps as a member of Direct Short Service Course 21 in 2014.\n\nHe has served in a broad range of operational, regimental, national and international appointments including: Military Hospital Lagos; 242 Battalion Konduga; 5 Brigade Konduga; Military Hospital Sokoto; 212 Battalion Konduga during Operations DEEP PUNCH II and RESCUE FINALE; 243 Battalion Badagry; 15 Field Engineer Regiment Badagry; 12 Field Engineer Regiment Ijebu-Ode; 1 Battalion Birnin Kebbi; Defence Space Administration Clinic Abuja; and Acting Commanding Officer, Depot NA Medical Centre Osogbo (current).\n\nHis international service includes the ECOWAS Mission in The Gambia (ECOMIG) and the United Nations-African Union Mission in Darfur (UNAMID). He also served as Team Lead for the Defence Headquarters COVID-19 North-West Response. His research interests cover public health, disease prevention, healthcare access and health systems strengthening.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "mir",
+      "name": "Military Intelligence Regiment",
+      "brief": "The Military Intelligence Regiment (MIR) at Depot Nigerian Army Osogbo is responsible for gathering, analysing and disseminating intelligence relevant to the security and operations of the Depot. The regiment supports the Commandant with threat assessments, counter-intelligence activities and coordination with higher intelligence formations of the Nigerian Army.",
+      "chronicles": [
+        {
+          "name": "Captain Abdulkadir Abubakar Bindawa",
+          "role": "Acting Commander, MIR",
+          "photo": "assets/images/depts/mir.jpeg",
+          "bio": "Captain Abdulkadir Abubakar Bindawa was born on 20 April 1991 in Bindawa town into the family of Mr and Mrs Alh Kado Bature Bindawa. He hails from Bindawa Local Government Area of Katsina State.\n\nHe attended Bindawa Pilot Primary School for his primary education and Government Science Secondary School Bindawa for his secondary education. He holds a Bachelor of Science in Computer Science from Alqalam University, Katsina.\n\nHe was commissioned into the Nigerian Army Intelligence Corps as a Second Lieutenant on 16 September 2017 as a member of Short Service Combatant Course 44.\n\nHe has served in the following appointments: Instructor, Nigerian Army Intelligence School Apapa Lagos; Officer-in-Charge, Special Intelligence Cell, Damaturu, Yobe State; Acting Commanding Officer, 27 Task Force Brigade Buni Gari, Yobe State; and Acting Commanding Officer, Military Intelligence Regiment, Depot NA Osogbo (current).",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "mt_yard",
+      "name": "Motor Transport Yard",
+      "brief": "The Motor Transport Yard manages the fleet of vehicles belonging to Depot Nigerian Army Osogbo. Its responsibilities include the maintenance, servicing and deployment of military vehicles in support of training activities, administrative movements and operational tasks, ensuring all vehicles are roadworthy and available at all times.",
+      "chronicles": [
+        {
+          "name": "Major Habib Habib Bello",
+          "role": "Acting CO, Transport Battalion",
+          "photo": "assets/images/depts/mt_yard.jpeg",
+          "bio": "Major Habib Habib Bello was born on 22 February 1985 into the family of Alhaji Bello Habib. He hails from Gwale Local Government Area of Kano State.\n\nHe attended St Louis Nursery and Primary School, Kano (1993 – 1997) for his primary education and St Thomas Secondary School for his secondary education, where he obtained his West African Senior Secondary School Certificate in 2003. He holds a Bachelor of Science in Political Science from Bayero University Kano (2010).\n\nHe was commissioned into the Nigerian Army as a Second Lieutenant on 8 September 2012 as a member of Short Service Course 40.\n\nHe is currently serving as Acting Commanding Officer, Transport Battalion, Depot NA Osogbo.\n\nCourses attended include Young Officers Course Supply and Transport, Mechanical Transport Officers Course, Unarmed Combat Course and Junior Staff Course at the Armed Forces Command and Staff College.\n\nHis operational experience includes Operation BURST, Operation ZAMA LAFIYA, Operation LAFIYA DOLE, Operation DELTA SAFE and Operation SAFE HAVEN. He is a widower blessed with three children.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "provost_company",
+      "name": "Provost Company",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Captain Odeniran",
+          "role": "Acting Officer Commanding, Provost Company",
+          "photo": "assets/images/depts/provost_company.jpeg",
+          "bio": "Captain Olubodun Michael Odeniran was born on 31 December 1986 in Ibadan into the family of Mr and Mrs Olu Odeniran. He hails from Ife-East Local Government Area of Osun State.\n\nHe attended Local Education Authority Primary School, Kigo Road, Kaduna for his primary education and Nigerian Military School Zaria for his secondary education. He holds a Bachelor of Laws (Civil Law) from Nasarawa State University Keffi and was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of Nigeria at the Nigerian Law School, Yola Campus, on 28 November 2013. He subsequently obtained a Master of Laws from Ahmadu Bello University Zaria and is a Certified Security Supervisor and Certified Chief Security Officer of the International Security Organisation Switzerland.\n\nHe enlisted in the Nigerian Army as a boy soldier on 4 August 2001 and was posted to Headquarters Guards Brigade, Aguyi Ironsi Cantonment, Asokoro Abuja. He thereafter served at 177 Guards Battalion, Shittu Alao Barracks Keffi (2001 – 2007) and at 2 Division Garrison and 2 Division Legal Services, Adekunle Fajuyi Cantonment Ibadan (2007 – 2014). He served as a Prosecutor at 1 Division General Court Martial under 1 Division Legal Services Kaduna.\n\nHe was commissioned into the Nigerian Army Corps of Military Police as a Second Lieutenant on 15 September 2015 as a member of Short Service Combatant Course 43.\n\nAs a commissioned officer, he has served as Instructor at the Nigerian Army School of Military Police Basawa Zaria; Platoon Commander, 6 Division Provost Group Port Harcourt; Acting SO2 Legal and Vetting, Headquarters Nigerian Army Corps of Military Police; and Pioneer Acting Officer Commanding, Depot NA Osogbo Provost Company (current).\n\nHe is married to Mrs Temitope Elizabeth Odeniran and the union is blessed with two children.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "pt_wing",
+      "name": "Physical Training Wing",
+      "brief": "The Physical Training (PT) Wing is responsible for planning, coordinating, supervising and executing all physical training activities for personnel and recruits at Depot Nigerian Army Osogbo. It develops and sustains the physical, mental and psychological readiness of soldiers through structured programmes designed to enhance strength, endurance, agility, stamina, discipline, resilience and combat efficiency. The wing's current posted strength is 2 x 43 soldiers.\n\nTraining activities conducted by the wing include morning physical training, evening games, Bi-Annual Physical Efficiency Tests (BPET), endurance race training and competitions, obstacle training and competitions, novices boxing bouts, circuit training, sports week competitions, unarmed combat and self-defence training, and the EX ETI PARI Dash Back exercise.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel M. Umar",
+          "role": "Senior Instructor, Physical Training",
+          "photo": "assets/images/depts/pt_wing.jpeg",
+          "bio": "Lieutenant Colonel M. Umar was born on 25 December 1974 into the family of Mallam Umar Ndorhong in Jos, Plateau State. He hails from Mubi North Local Government Area of Adamawa State.\n\nHe attended St Paul Primary School, Old Bukuru Park, Jos (1980 – 1986) for his primary education and Government Secondary Schools at Miango and Farin Gada, both in Jos (1986 – 1991) for his secondary education. He holds a Diploma in Public Administration from Abuja University (2000 – 2003) and a National Certificate of Education in Physical and Health Education from Federal University of Education Zaria (2011 – 2014).\n\nHe was enlisted into the Nigerian Army on 19 July 1993 as a member of 36 Regular Recruits Intake and was commissioned on 10 April 2010 as a member of Executive Commission Course One.\n\nHe has served in the following appointments: Guards Brigade NA Abuja (1993 – 2004); 41 Engineers Brigade Kaduna (2004 – 2009); Depot NA Zaria, Sports Officer Physical Training (2010 – 2015); 4 Brigade NA Benin, Sports Officer Physical Training (2015 – 2017); Defence Intelligence Agency Abuja, Sports Officer Physical Training (2017 – 2021); HQ Nigerian Army Corps of Artillery Kontagora, Sports Officer Physical Training (2021 – 2023); HQ Training and Doctrine Command (TRADOC) Minna (2023 – 2024); HQ 8 Division/Sector 2 JTF North West, Op FANSAN YAMMA (2024 – 2025); and Senior Instructor, Physical Training Wing, Depot NA Osogbo (current).\n\nCourses attended include Basic, Advanced and Probation Physical Training Courses; Young Officers Course Physical Training; Officers Sports Management Course; Basic Computer Course; Conduct of Humanitarian Relief Operations Course; Principles of Intervention and Management Course; Introduction to United Nations Mission; and Field Operators Course.\n\nHis operational experience includes African Mission in Sudan (AMIS); United Nations Hybrid Forces in Darfur (UNAMID); United Nations Mission in Sierra Leone (UNAMSIL); Operation MESA; Operation CROCODILE SMILE; JTF North West Op FANSAN YAMMA; Operation THUNDER STORM; and Operation POLO SHIELD.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "qm_dept",
+      "name": "Quartermaster Department",
+      "brief": "The Quartermaster (QM) Department is responsible for providing logistics and administrative support to Depot Nigerian Army Osogbo. Established on 7 June 2025 alongside the Depot, it has grown from 1 officer to a current strength of 2 x 16 soldiers. The department is a key component of the Depot's organisational structure and is the primary logistics branch charged with the issuance and management of stores, arms and ammunition.\n\nIts responsibilities include the receipt, supply, distribution, procurement and maintenance of stores, uniforms, boots, bedding, training equipment, stationery and other military materiel; setting up camps for field training exercises; allocating accommodation for recruits and personnel; and maintaining inventory records.",
+      "chronicles": [
+        {
+          "name": "Captain I. Dumtah",
+          "role": "Quartermaster",
+          "photo": "assets/images/depts/qm_dept.jpeg",
+          "bio": "Captain Israel Dumtah was born on 25 October 1993 into the family of Mr and Mrs Dumtah. He hails from Langtang North Local Government Area of Plateau State.\n\nHe attended Cooper Memorial Nursery and Primary School and Central Pilot Primary School Langtang (FSLC 2004) for his primary education and Cooper Memorial Secondary School Langtang (2004 – 2010) and Gani Development College (2013) for his secondary education. He was admitted to the Nigerian Defence Academy as a member of 66 Regular Course and was granted a Presidential Commission with a Bachelor of Science in Political Science and Defence Studies on 5 October 2019, and posted to the Nigerian Army Ordnance Corps.\n\nHe has served in the following appointments: Store Officer, COD MT and Tech Ibadan (March 2020 – January 2023); Instructor, Depot NA Zaria (January 2023 – June 2025); and Quartermaster, Depot NA Osogbo (June 2025 – current).\n\nCourses attended include Ordnance Officers Basic Course (July – December 2020); Basic Airborne Course (February – April 2021); Basic Rigger Course (April – June 2021); Advanced Airborne Course (August – October 2021); Basic French Course (January – March 2023); and Young Officers Course Infantry (August – December 2024).\n\nHis hobbies include watching sports, reading military pamphlets and keeping fit.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "records_office",
+      "name": "Records Office",
+      "brief": "The Records Office maintains comprehensive records of all military personnel who have served in or passed through Depot Nigerian Army Osogbo. It handles documentation related to enlistment, posting, promotions, discharges and service history, and plays a vital role in ensuring the accuracy and integrity of all personnel data within the Depot formation.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel I.K. Oladipo",
+          "role": "Head, Records Office",
+          "photo": "assets/images/depts/records_office.jpeg",
+          "bio": "Lieutenant Colonel Idowu Kayode Oladipo was born on 1 April 1985 into the family of the late Mr and Mrs B.O. Oladipo. He hails from Okemesi in Ekiti-West Local Government Area of Ekiti State.\n\nHe attended Command Children's School and Command Day Secondary School, Ojo Military Cantonment, Lagos State for his primary and secondary education. He was admitted to the Nigerian Defence Academy, Kaduna as a member of 57 Regular Course and was commissioned into the Nigerian Army Corps of Artillery. He holds a Bachelor of Science in Geography from the NDA and a Master of Arts in Leadership and Security Studies (in view).\n\nCourses attended include Young Officers Course Artillery, Troop Commander Course, Regimental Officers' Gunnery Course, Battery Commander Course, and Junior and Senior Command and Staff Courses at the Armed Forces Command and Staff College.\n\nHe has served in the following appointments: Battery Commander/Second-in-Command, 375 Artillery Regiment Baga and Mallam Fatori (Borno State); State Records Officer, Bauchi State; OC Forward Operating Bases Zurmi, Tsafe, Talata Mafara and Gudu (North West Theatre); SO1 G7, HQ Nigerian Army Corps of Artillery; and Head, Records Office, Depot NA Osogbo (current).\n\nHis operational experience includes UNAMID Sudan, Operation RESTORE ORDER I and II, Operation BOYONA, Operation ZAMAN LAFIYA, Operation LAFIYA DOLE (North East, Borno State) and Operation HADIN DAJI (North West, Sokoto and Zamfara States).\n\nHe is married. His hobbies include reading, listening to music and playing table tennis.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "recruits_centre",
+      "name": "Recruits Centre",
+      "brief": "The Recruits Centre is responsible for receiving, processing and administering new recruits from the point of enlistment through their entire basic military training. The centre ensures that all recruits meet the physical, medical and administrative requirements for service in the Nigerian Army, and manages their welfare, discipline and documentation throughout the training period.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel E.M. Ukande",
+          "role": "Acting Commander, Recruits Centre",
+          "photo": "assets/images/depts/recruits_centre.jpeg",
+          "bio": "Lieutenant Colonel Emmanuel Manasseh Ukande is a member of Short Service Course 33 of the Nigerian Defence Academy and was commissioned into the Infantry Corps in 2003.\n\nHe has attended military courses commensurate with his rank including Junior Course, AFCSC Jaji (January – June 2015); Senior Course, AFCSC Jaji (January 2019 – August 2020); Commanding Officers Course (January – April 2026); Company Commanders Course (September – December 2015); Young Officers Course (February – May 2006); Special Operations Command Course, Quanzhou Military Academy, China (August 2016 – July 2017); Basic and Advanced Airborne Courses, Airborne Wing Jaji (February – March 2005 and April – June 2026); Protection of Civilians Course, Martin Luther Agwai Leadership and Peacekeeping Centre Jaji (July – August 2016); and United Nations Battalion Course, South Korea (November 2022).\n\nHe has served in various staff, command and instructional appointments including Adjutant and Operations Officer, 192 Battalion (2003 – 2005); Platoon Commander, UNMIL (2006) and UNAMID (2007); Instructor and Administrative Officer, Tactics Wing, Nigerian Army School of Infantry (May – August 2016); Acting Sector Commander, Operations RESTORE ORDER III, BOYONA and ZAMAN LAFIYA (July 2011 – May 2016); Training Officer, Nigerian Army Special Forces School Buni Yadi (September 2020 – May 2021); Commanding Officer, 2 Special Women Operations Battalion Abakaliki (May 2021 – July 2023); Commanding Officer, 196 Amphibious Battalion Baga, Op HADIN KAI / Multinational Joint Task Force (July 2023 – May 2025); and Acting Commander, Recruits Centre, Depot NA Osogbo (May 2025 – current).\n\nHis awards and decorations include the Meritorious Service Star, Force Service Star, Passed Staff Course, Nigeria Centenary and Golden Jubilee Medals, and General Operations and Command Medals. He is married with children. His interests include physical fitness and mentoring subordinates.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "sig_sqn",
+      "name": "Signals Squadron",
+      "brief": "The Signals Wing was established on 6 June 2025 following the commencement of recruit training at Depot Nigerian Army Osogbo. Its mandate is to provide effective and efficient communications support to the Depot and to instruct recruits in signals communication, information and communication technology.\n\nThe wing is structured into Signals Wing Headquarters, a Communications Training Department and a Communications Support Department. Due to current manpower limitations, these departments are integrated and function as a single entity. The wing's current strength is 1 x 9, against an establishment of 7 x 32.",
+      "chronicles": [
+        {
+          "name": "Captain A.M. Bello",
+          "role": "Acting Senior Instructor, Signals Squadron",
+          "photo": "assets/images/depts/sig_sqn.jpeg",
+          "bio": "Captain Aliyu Muhammed Bello was born on 31 December 1993 into the family of Mr and Mrs Bello Mohammed. He hails from Birnin Kebbi Local Government Area of Kebbi State and is the second of four children.\n\nHe attended Turaki International School Kaduna (FSLC 2004) for his primary education and Essence International School Kaduna (WASSCE 2010) for his secondary education. He was admitted to the Nigerian Defence Academy as a member of 64 Regular Course on 22 September 2012 and graduated with a Bachelor of Engineering in Electrical and Electronics Engineering in 2017. He subsequently obtained a Master of Technology in Telecommunication and Electronics Engineering from Obafemi Awolowo University Ile-Ife.\n\nHe was commissioned into the Nigerian Army Signals Corps as a Second Lieutenant on 16 September 2017.\n\nHe has served in the following appointments: 535 Signals Regiment Jos; Adjutant, HQ Nigerian Army Signals Regiment Lagos; HQ Joint Task Force North East, Op HADIN KAI (December 2022 – March 2025); 562 Brigade Signals Yenagoa; and Acting Senior Instructor, Signals Wing, Depot NA Osogbo (June 2025 – current).\n\nCourses attended include Young Officers Course Signals, Young Officers Course Infantry, Reverse Engineering Malware Analysis Course, Open-Source Intelligence Course and Junior Course, Armed Forces Command and Staff College Jaji.\n\nHe is married. His hobbies include reading history and current affairs, playing video games, squash and watching football.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "tactics_wing",
+      "name": "Tactics Wing",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Major A.D. Mohammed",
+          "role": "Acting Senior Instructor, Tactics Wing",
+          "photo": "assets/images/depts/tactics_wing.jpeg",
+          "bio": "Major A.D. Mohammed was born on 9 June 1985 into the family of the late Alhaji and Hajia Hauwau Mohammed Bida in Kaduna State. He hails from Bida Local Government Area of Niger State.\n\nHe attended LEA Katsina Road Primary School, Kaduna (1990 – 1996) for his primary education and Army Secondary School Kaduna (1997 – 2002) for his secondary education. He holds a National Diploma and Higher National Diploma in Mass Communication from Kaduna Polytechnic.\n\nHe was enlisted into the Nigerian Army on 10 August 2010 and was commissioned into the Infantry Corps as a member of Short Service Course 39 on 6 April 2011.\n\nHe has served in the following units and appointments: Infantry Corps Centre (ICC); Platoon Commander, 103 Battalion; AHQ Special Operations Battalion; 133 Special Forces Battalion; 65 Battalion; 81 Division Task Force Battalion; 5 Battalion; and Acting Senior Instructor, Tactics Wing, Depot NA Osogbo (current).\n\nCourses attended include Special Warfare Course (Tracker); Young Officers Course Infantry; Anti-Tank Platoon Commander Course; Armoury Management Course; Junior Command and Staff Course; and Company Commander Course.\n\nHis operational experience includes Operation ZAMAN LAFIYA; Operation LAFIYA DOLE; Operation TURA TAKAI BANGO; Operation RESCUE FINALE; Operation DEEP PUNCH II; Operation HARBIN KUNAMA; Operation MESA; Operation HADIN KAI; and Operation DELTA SAFE. His awards include the Op Lafiya Dole Medal, Op HADIN KAI Medal, General Operations Medal, Force Service Star and Passed Junior Staff Course.\n\nHe is married and the union is blessed with three children. His hobbies include basketball, table tennis and badminton.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "training_branch",
+      "name": "Training Branch",
+      "brief": "The Training Branch is the central coordinating authority for all recruit training programmes within Depot Nigerian Army Osogbo. It designs, supervises and evaluates the military training curriculum delivered to recruits, ensuring compliance with Nigerian Army training standards and directives. The branch coordinates with all training wings — Drill, Weapons, Tactics, Physical Training and Signals — to produce well-trained soldiers fit for operational duties.",
+      "chronicles": [
+        {
+          "name": "Lieutenant Colonel S.A. Inusa",
+          "role": "Acting Chief Instructor, Training Branch",
+          "photo": "assets/images/depts/training_branch.jpeg",
+          "bio": "Lieutenant Colonel Salisu Abdulrahman Inusa was born on 13 October 1984 into the family of Colonel Salisu Inusa (Rtd) in Jos, Plateau State. He hails from Kabo LGA of Kano State. He attended Kiddy Joy Nursery School, Rantya Primary School, Command Secondary School Jos and NDA as a member of 55 RC.\nInusa has served in 7 Demo Battalion Jaji - Adjt, 7 Guards Battalion Bn Abuja - Pl Comd, 192 Bn Owode - Pl Comd, NASI JAJI - Instr, 2 BDE GAR PH- OPS OFFR, 157 TF BN - 2iC, WOA JAJI - Ag CI, Ag CO 82 DIV Records Office, Team 6 OPHD - Team Ldr, 148 SF BN - CO and\nDepot NA Osogbo - Ag CI TRG Branch.\nHe has attended the following courses which include; YOC INFANTRY, BASIC AIRBORNE, ANTI TANK PL COMD, MOR PL COMD, MG PL COMD, BASIC RANGE MGT, Junior & Senior staff Course AFCSC, APC PL COMD AT MACHINE DESIGN BEREAU KHARKIV UKRAINE\nInusa has participated in OP LAFIYA DOLE, OP RESTORE HOPE, OP SAFE HEAVEN, OP HADARIN DAJI and OP WHIRL STROKE\nHe is a recipient of FORCES SERVICE STAR and PASS STAFF CSE. Others are Bsc Economics & Accounts, Masters in Leadership & Defense Studies from NDA, Master of Art in peace & Conflict Studies from Ankara University Turkey.\nInusa is married and blessed with 2 boys and 3 girls",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    },
+    {
+      "id": "wpn_wing",
+      "name": "Weapons Wing",
+      "brief": "",
+      "chronicles": [
+        {
+          "name": "Major A.V. Chijioke",
+          "role": "Acting Senior Instructor, Weapons Wing",
+          "photo": "assets/images/depts/wpn_wing.jpeg",
+          "bio": "Major Attah Valentine Chijioke was born on 16 July 1975 in Ohamaka, Agbamere, Eha-Alumona in Nsukka Local Government Area of Enugu State, into the family of Mr and Mrs Charles Attah.\n\nHe attended State Primary School Agbamere for his primary education, Community High School Umabor Eha-Alumona for his secondary education and Nuhu Bamalli Polytechnic Zaria for his tertiary education.\n\nHe was enlisted into the Nigerian Army in 1996 as a member of 43 Regular Recruits Intake and was commissioned into the Infantry Corps in 2013 as a member of Executive Commission Course 1/13.\n\nHe has served in the following units: Depot NA Zaria; 174 Battalion; AHQ Garrison; 6 Battalion; 101 Special Forces Battalion; 5 Battalion; 45 Battalion; and Depot NA Osogbo, where he currently serves as Acting Senior Instructor, Weapons Wing.\n\nCourses attended include Young Officers Course Infantry (Jaji); Anti-Personnel Company Commander Course (Jaji); Basic Range Management Course (Jaji); and Basic Operating Course (Makurdi).\n\nHis operational experience includes ECOMOG Peacekeeping in Liberia and Sierra Leone; Operation HARMONY, Bakassi Peninsula; AMIS Protection Force, Darfur Region, Sudan; Operation ZAMAN LAFIYA (North East); Operation LAFIYA DOLE (North East); Operation HADIN KAI (North East); Operation FOREST SANITY III (North West); and Operation FANSAN YAMMA (North West).\n\nHe is married and blessed with children.",
+          "tenure": "Jun 2025 – Present",
+          "current": true
+        }
+      ]
+    }
+  ]
+};

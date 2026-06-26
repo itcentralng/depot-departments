@@ -144,26 +144,32 @@
 
   // ── Build home grid ──────────────────────────────────
 
-  fetch('data.json')
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var depts = Array.isArray(data.departments) ? data.departments : [];
-      var grid = document.getElementById('dept-grid');
+  function buildGrid(data) {
+    var depts = Array.isArray(data.departments) ? data.departments : [];
+    var grid = document.getElementById('dept-grid');
 
-      depts.forEach(function (dept, i) {
-        var card = document.createElement('div');
-        card.className = 'dept-card';
-        card.style.animationDelay = (i * 28) + 'ms';
-        card.innerHTML =
-          '<div class="dept-card-num">' + String(i + 1).padStart(2, '0') + '</div>' +
-          '<div class="dept-card-name">' + dept.name + '</div>' +
-          '<div class="dept-card-footer">' +
-            '<span class="dept-card-hod">' + ((dept.chronicles && dept.chronicles[0] && dept.chronicles[0].name) || '') + '</span>' +
-            '<span class="dept-card-arrow">›</span>' +
-          '</div>';
-        card.addEventListener('click', function () { showDetail(dept); });
-        grid.appendChild(card);
-      });
-    })
-    .catch(function (e) { console.error('data.json load error', e); });
+    depts.forEach(function (dept, i) {
+      var card = document.createElement('div');
+      card.className = 'dept-card';
+      card.style.animationDelay = (i * 28) + 'ms';
+      card.innerHTML =
+        '<div class="dept-card-num">' + String(i + 1).padStart(2, '0') + '</div>' +
+        '<div class="dept-card-name">' + dept.name + '</div>' +
+        '<div class="dept-card-footer">' +
+          '<span class="dept-card-hod">' + ((dept.chronicles && dept.chronicles[0] && dept.chronicles[0].name) || '') + '</span>' +
+          '<span class="dept-card-arrow">›</span>' +
+        '</div>';
+      card.addEventListener('click', function () { showDetail(dept); });
+      grid.appendChild(card);
+    });
+  }
+
+  if (typeof DEPT_DATA !== 'undefined') {
+    buildGrid(DEPT_DATA);
+  } else {
+    fetch('data.json')
+      .then(function (r) { return r.json(); })
+      .then(buildGrid)
+      .catch(function (e) { console.error('data.json load error', e); });
+  }
 })();
