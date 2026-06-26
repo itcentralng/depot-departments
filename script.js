@@ -24,14 +24,15 @@
     document.getElementById('brief-dept-name').textContent = dept.name;
     document.getElementById('brief-text').textContent = dept.brief || 'Brief not available.';
 
-    // Portrait
-    document.getElementById('portrait-role').textContent = dept.hod_role || '';
-    document.getElementById('portrait-name').textContent = dept.hod_name || '—';
+    // Portrait — current HOD is chronicles[0]
+    var current = (dept.chronicles && dept.chronicles[0]) || {};
+    document.getElementById('portrait-role').textContent = current.role || '';
+    document.getElementById('portrait-name').textContent = current.name || '—';
 
     var img = document.getElementById('portrait-img');
     var sil = document.getElementById('portrait-silhouette');
-    if (dept.photo) {
-      img.src = dept.photo;
+    if (current.photo) {
+      img.src = current.photo;
       img.style.display = 'block';
       sil.classList.add('hidden');
     } else {
@@ -41,55 +42,60 @@
 
     // Show/hide profile button
     document.getElementById('profile-btn').style.display =
-      (dept.hod_bio && dept.hod_bio.trim()) ? '' : 'none';
+      (current.bio && current.bio.trim()) ? '' : 'none';
 
-    // Members strip
-    buildMembersStrip(dept.members || []);
+    // Chronicles strip
+    buildChronicles(dept.chronicles || []);
   }
 
-  function buildMembersStrip(members) {
-    var strip = document.getElementById('members-strip');
-    var scroll = document.getElementById('members-scroll');
+  function buildChronicles(chronicles) {
+    var strip  = document.getElementById('chronicles-strip');
+    var scroll = document.getElementById('chronicles-scroll');
     scroll.innerHTML = '';
 
-    if (!members || !members.length) {
+    if (!chronicles || !chronicles.length) {
       strip.classList.add('hidden');
       return;
     }
     strip.classList.remove('hidden');
 
-    members.forEach(function (m, i) {
-      var card = document.createElement('div');
-      card.className = 'member-card';
-      card.style.animationDelay = (i * 30) + 'ms';
+    chronicles.forEach(function (c, i) {
+      var card = document.createElement('button');
+      card.className = 'chronicle-card';
+      card.style.animationDelay = (i * 40) + 'ms';
 
       var wrap = document.createElement('div');
-      wrap.className = 'member-photo-wrap';
+      wrap.className = 'chronicle-photo-wrap';
 
-      if (m.photo) {
-        var mimg = document.createElement('img');
-        mimg.className = 'member-photo';
-        mimg.src = m.photo;
-        mimg.alt = m.name;
-        wrap.appendChild(mimg);
-        var sil = document.createElement('div');
-        sil.className = 'member-sil hidden';
-        sil.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><circle cx="12" cy="8" r="5"/><path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/></svg>';
-        wrap.appendChild(sil);
+      if (c.photo) {
+        var cimg = document.createElement('img');
+        cimg.className = 'chronicle-photo';
+        cimg.src = c.photo;
+        cimg.alt = c.name;
+        wrap.appendChild(cimg);
       } else {
-        var sil = document.createElement('div');
-        sil.className = 'member-sil';
-        sil.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><circle cx="12" cy="8" r="5"/><path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/></svg>';
-        wrap.appendChild(sil);
+        var csil = document.createElement('div');
+        csil.className = 'chronicle-sil';
+        csil.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><circle cx="12" cy="8" r="5"/><path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/></svg>';
+        wrap.appendChild(csil);
       }
 
-      var nameEl = document.createElement('div');
-      nameEl.className = 'member-name';
-      nameEl.textContent = m.name;
+      if (c.current) {
+        var badge = document.createElement('div');
+        badge.className = 'chronicle-badge';
+        badge.textContent = 'CURRENT';
+        wrap.appendChild(badge);
+      }
+
+      var info = document.createElement('div');
+      info.className = 'chronicle-info';
+      info.innerHTML =
+        '<div class="chronicle-name">' + (c.name || '') + '</div>' +
+        '<div class="chronicle-tenure">' + (c.tenure || '') + '</div>';
 
       card.appendChild(wrap);
-      card.appendChild(nameEl);
-      card.addEventListener('click', function () { openMemberProfile(m); });
+      card.appendChild(info);
+      card.addEventListener('click', function () { openChronicleProfile(c); });
       scroll.appendChild(card);
     });
   }
@@ -118,12 +124,12 @@
 
   window.openProfile = function () {
     if (!currentDept) return;
-    var d = currentDept;
-    openModal(d.hod_role, d.hod_name, d.hod_bio, d.photo);
+    var c = (currentDept.chronicles && currentDept.chronicles[0]) || {};
+    openModal(c.role, c.name, c.bio, c.photo);
   };
 
-  function openMemberProfile(m) {
-    openModal('', m.name, m.bio, m.photo);
+  function openChronicleProfile(c) {
+    openModal(c.role, c.name, c.bio, c.photo);
   }
 
   window.closeProfile = function (e) {
@@ -152,7 +158,7 @@
           '<div class="dept-card-num">' + String(i + 1).padStart(2, '0') + '</div>' +
           '<div class="dept-card-name">' + dept.name + '</div>' +
           '<div class="dept-card-footer">' +
-            '<span class="dept-card-hod">' + (dept.hod_name || '') + '</span>' +
+            '<span class="dept-card-hod">' + ((dept.chronicles && dept.chronicles[0] && dept.chronicles[0].name) || '') + '</span>' +
             '<span class="dept-card-arrow">›</span>' +
           '</div>';
         card.addEventListener('click', function () { showDetail(dept); });
