@@ -50,46 +50,50 @@
 
     <div class="detail-layout">
 
-      <!-- Left: HOD portrait -->
-      <div class="portrait-side">
-        <div class="portrait-frame" id="portrait-frame">
-          <img class="portrait-img" id="portrait-img" src="" alt="">
-          <div class="portrait-shine" aria-hidden="true"></div>
-          <div class="portrait-silhouette hidden" id="portrait-silhouette">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
-              <circle cx="12" cy="8" r="5"/>
-              <path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/>
-            </svg>
+      <div class="detail-top">
+
+        <!-- Left: HOD portrait -->
+        <div class="portrait-side">
+          <div class="portrait-frame" id="portrait-frame">
+            <img class="portrait-img" id="portrait-img" src="" alt="">
+            <div class="portrait-shine" aria-hidden="true"></div>
+            <div class="portrait-silhouette hidden" id="portrait-silhouette">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
+                <circle cx="12" cy="8" r="5"/>
+                <path d="M3 21c0-5 3.582-9 9-9s9 4 9 9"/>
+              </svg>
+            </div>
+          </div>
+          <div class="portrait-info">
+            <div class="portrait-role" id="portrait-role"></div>
+            <div class="portrait-name" id="portrait-name"></div>
+            <button class="profile-btn" id="profile-btn" onclick="openProfile()">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.582-7 8-7s8 3 8 7"/>
+              </svg>
+              View Profile
+            </button>
           </div>
         </div>
-        <div class="portrait-info">
-          <div class="portrait-role" id="portrait-role"></div>
-          <div class="portrait-name" id="portrait-name"></div>
-          <button class="profile-btn" id="profile-btn" onclick="openProfile()">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.582-7 8-7s8 3 8 7"/>
-            </svg>
-            View Profile
-          </button>
+
+        <!-- Right: Department brief -->
+        <div class="brief-side glass-panel">
+          <div class="brief-tag">DEPARTMENT BRIEF</div>
+          <h2 class="brief-dept-name" id="brief-dept-name"></h2>
+          <div class="brief-divider"></div>
+          <div class="brief-scroll">
+            <p class="brief-text" id="brief-text"></p>
+          </div>
         </div>
+
       </div>
 
-      <!-- Right: Department brief -->
-      <div class="brief-side glass-panel">
-        <div class="brief-tag">DEPARTMENT BRIEF</div>
-        <h2 class="brief-dept-name" id="brief-dept-name"></h2>
-        <div class="brief-divider"></div>
-        <div class="brief-scroll">
-          <p class="brief-text" id="brief-text"></p>
-        </div>
+      <!-- Chronicles of Command strip -->
+      <div class="chronicles-strip" id="chronicles-strip">
+        <div class="chronicles-label">CHRONICLES<br>OF COMMAND</div>
+        <div class="chronicles-scroll" id="chronicles-scroll"></div>
       </div>
 
-    </div>
-
-    <!-- Chronicles of Command strip -->
-    <div class="chronicles-strip" id="chronicles-strip">
-      <div class="chronicles-label">CHRONICLES<br>OF COMMAND</div>
-      <div class="chronicles-scroll" id="chronicles-scroll"></div>
     </div>
 
   </div>

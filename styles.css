@@ -171,12 +171,11 @@ html, body {
 }
 .dept-card:hover .dept-card-arrow { color: var(--gold); transform: translateX(4px); }
 
-/* ══ DETAIL SCREEN — portrait stacked layout ══ */
+/* ══ DETAIL SCREEN ══ */
 #screen-detail {
   display: flex; flex-direction: column;
 }
 
-/* Outer container stacks portrait-side + brief-side vertically */
 .detail-layout {
   flex: 1; min-height: 0;
   display: flex; flex-direction: column;
@@ -184,24 +183,31 @@ html, body {
   animation: fadeIn 0.35s ease both;
 }
 
-/* HOD strip — compact horizontal bar at top */
+/* Top row: portrait left + brief right */
+.detail-top {
+  flex: 1; min-height: 0;
+  display: flex; flex-direction: row;
+  overflow: hidden;
+}
+
+/* Left: large portrait panel */
 .portrait-side {
-  flex-shrink: 0;
-  display: flex; flex-direction: row; align-items: center;
-  gap: 20px;
-  padding: 20px 36px;
-  border-bottom: 1px solid var(--gold-line);
-  background: rgba(6,10,8,0.50);
+  width: 260px; flex-shrink: 0;
+  display: flex; flex-direction: column;
+  padding: 24px 20px 20px 28px;
+  gap: 16px;
+  border-right: 1px solid var(--gold-line);
+  background: rgba(6,10,8,0.55);
   backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
 }
 
 .portrait-frame {
-  width: 80px; height: 100px;
+  width: 100%; aspect-ratio: 3 / 4;
   flex-shrink: 0;
-  border-radius: 12px; overflow: hidden;
+  border-radius: 14px; overflow: hidden;
   border: 3px solid rgba(246,239,227,0.82);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.40);
-  background: #dde0d8;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.50);
+  background: #1a2218;
   position: relative;
 }
 .portrait-img {
@@ -212,7 +218,7 @@ html, body {
 }
 .portrait-shine {
   position: absolute; inset: 0;
-  background: linear-gradient(145deg, rgba(255,255,255,0.16) 0%, transparent 38%, rgba(0,0,0,0.08) 100%);
+  background: linear-gradient(145deg, rgba(255,255,255,0.14) 0%, transparent 38%, rgba(0,0,0,0.10) 100%);
   pointer-events: none;
 }
 .portrait-silhouette {
@@ -220,47 +226,45 @@ html, body {
   display: flex; align-items: center; justify-content: center;
   background: rgba(30,40,32,0.60);
 }
-.portrait-silhouette svg { width: 34px; height: 34px; color: rgba(166,124,62,0.35); }
+.portrait-silhouette svg { width: 48px; height: 48px; color: rgba(166,124,62,0.35); }
 .portrait-silhouette.hidden { display: none; }
 
-.portrait-info { flex: 1; min-width: 0; }
+.portrait-info { flex-shrink: 0; }
 .portrait-role {
-  font-family: var(--f-head); font-size: 0.60rem; font-weight: 700;
+  font-family: var(--f-head); font-size: 0.55rem; font-weight: 700;
   letter-spacing: 3px; text-transform: uppercase; color: var(--gold-dim);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .portrait-name {
-  font-family: var(--f-head); font-size: 1.10rem; font-weight: 700;
+  font-family: var(--f-head); font-size: 0.95rem; font-weight: 700;
   letter-spacing: 0.5px; text-transform: uppercase;
-  color: #f6efe3; line-height: 1.2;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  color: #f6efe3; line-height: 1.25;
   text-shadow: 0 2px 12px rgba(0,0,0,0.50);
 }
 .profile-btn {
   flex-shrink: 0;
   display: inline-flex; align-items: center; gap: 8px;
-  padding: 10px 20px;
+  padding: 10px 16px;
   background: rgba(42,66,56,0.55);
   border: 1px solid rgba(166,124,62,0.40); border-radius: 999px;
-  font-family: var(--f-head); font-size: 0.68rem; font-weight: 600;
+  font-family: var(--f-head); font-size: 0.65rem; font-weight: 600;
   letter-spacing: 2px; text-transform: uppercase; color: var(--gold);
   cursor: pointer;
   transition: background 0.2s, border-color 0.2s, transform 0.2s;
 }
-.profile-btn svg { width: 15px; height: 15px; }
+.profile-btn svg { width: 14px; height: 14px; }
 .profile-btn:hover {
   background: rgba(42,66,56,0.80);
   border-color: rgba(166,124,62,0.70);
   transform: translateY(-2px);
 }
 
-/* Brief section — fills remaining vertical space */
+/* Right: brief section — scrollable */
 .brief-side {
-  flex: 1; min-height: 0;
-  padding: 24px 36px 20px;
+  flex: 1; min-width: 0;
+  padding: 24px 28px 20px;
   display: flex; flex-direction: column; gap: 12px;
   background: rgba(8,12,10,0.55);
-  animation: slideIn 0.35s ease both;
   overflow: hidden;
 }
 .glass-panel {
