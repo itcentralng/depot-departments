@@ -185,7 +185,7 @@ html, body {
 
 /* Top row: portrait left + brief right */
 .detail-top {
-  flex: 1; min-height: 0;
+  flex: 0 0 50%;
   display: flex; flex-direction: row;
   overflow: hidden;
 }
