@@ -382,12 +382,12 @@ html, body {
   position: fixed; inset: 0; z-index: 500;
   background: rgba(6,9,8,0.82);
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  display: flex; align-items: center; justify-content: center; padding: 48px 40px;
+  display: flex; align-items: flex-start; justify-content: center; padding: 100px 40px 40px;
   animation: fadeIn 0.22s ease;
 }
 .modal-overlay.hidden { display: none; }
 .modal-card {
-  width: min(820px, 100%); height: 80vh;
+  width: min(1152px, 92vw); height: 34vh;
   border-radius: 22px; padding: 0;
   display: flex; flex-direction: row;
   position: relative; overflow: hidden;
@@ -408,7 +408,7 @@ html, body {
 
 /* Left: portrait photo, full height */
 .modal-photo-frame {
-  width: 260px; flex-shrink: 0;
+  width: 391.68px; flex-shrink: 0;
   border-radius: 0;
   overflow: hidden;
   border-right: 2px solid rgba(166,124,62,0.35);
